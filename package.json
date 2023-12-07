@@ -1,0 +1,24 @@
+{
+  "name": "api_juego",
+  "version": "1.0.0",
+  "description": "19100180",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "redoc-express": "^2.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-themes": "^1.2.30",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
